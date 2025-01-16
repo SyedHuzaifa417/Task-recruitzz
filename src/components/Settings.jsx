@@ -203,13 +203,13 @@ export default function SettingsData() {
                       <div className="mt-4 w-full flex justify-center space-x-2 px-3">
                         <button
                           onClick={handleCancel}
-                          className="px-4 py-2.5 w-full text-sm font-medium text-[#6968EC] bg-white border border-gray-300 rounded-xl hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                          className="px-4 py-2.5 w-full text-sm font-semibold text-[#6968EC] bg-transparent border border-gray-300 rounded-xl hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                         >
                           Cancel
                         </button>
                         <button
                           onClick={handleSave}
-                          className="px-4 py-2 w-full text-sm font-medium text-white bg-[#6968EC] rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                          className="px-4 py-2 w-full text-sm font-semibold text-white bg-[#6968EC] rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                         >
                           Save
                         </button>
